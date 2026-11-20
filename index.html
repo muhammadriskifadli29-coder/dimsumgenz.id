@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Dimsum Gen Z — dimsum hangat buatan rumahan di Mauk, Kabupaten Tangerang. Pesan dimsum original, mentai, dan mozarella.">
+  <meta name="theme-color" content="#541b2b">
+  <title>Dimsum Gen Z — Hangat, Lembut, Bikin Nagih</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&family=Playfair+Display:wght@600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="#home" aria-label="Dimsum Gen Z beranda">
+      <span class="brand-mark">DG</span>
+      <span>DIMSUM <b>GEN Z</b></span>
+    </a>
+    <button class="menu-toggle" aria-label="Buka navigasi" aria-expanded="false">☰</button>
+    <nav class="nav-links" id="navLinks">
+      <a href="#home">Home</a><a href="#about">About</a><a href="#menu">Menu</a><a href="#gallery">Gallery</a><a href="#contact">Pemesanan</a>
+    </nav>
+    <a class="header-order" href="https://wa.me/6288211770143?text=Halo%20Dimsum%20Gen%20Z%2C%20saya%20ingin%20memesan." target="_blank" rel="noopener">Pesan Sekarang <span>↗</span></a>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-copy">
+        <p class="eyebrow"><span></span> DIBUAT HANGAT DI MAUK</p>
+        <h1>Dimsum hangat,<br><em>bahagia</em> di setiap gigitan.</h1>
+        <p class="hero-description">Nikmati dimsum rumahan dengan pilihan rasa favorit. Cocok untuk teman santai, kumpul bersama, atau stok camilan di rumah.</p>
+        <div class="hero-actions">
+          <a class="btn btn-gold" href="https://wa.me/6288211770143?text=Halo%20Dimsum%20Gen%20Z%2C%20saya%20ingin%20memesan." target="_blank" rel="noopener">Pesan via WhatsApp <span>↗</span></a>
+          <a class="btn btn-outline" href="#menu">Lihat Menu <span>↓</span></a>
+        </div>
+        <div class="hero-note"><span class="note-icon">✦</span><span><b>Fresh setiap hari</b><small>Hangat untuk dinikmati, praktis untuk dibawa</small></span></div>
+      </div>
+      <div class="hero-visual">
+        <div class="hero-photo-wrap"><img src="assets/dimsum-original.jpg" alt="Dimsum original hangat dalam wadah kukusan"></div>
+        <div class="floating-card"><span>Favorit pelanggan</span><b>Dimsum Original</b><strong>Rp15.000</strong></div>
+        <div class="decor decor-one">✳</div><div class="decor decor-two">✦</div>
+      </div>
+      <div class="hero-bottom"><span>RASA ASLI, SUASANA HANGAT</span><span>MAUK · KABUPATEN TANGERANG</span></div>
+    </section>
+
+    <section class="intro section-pad" id="about">
+      <div class="section-kicker">CERITA KAMI <span>01 / ABOUT</span></div>
+      <div class="intro-grid">
+        <h2>Camilan sederhana,<br><em>rasa istimewa.</em></h2>
+        <div><p class="lead">Kenalan dengan Dimsum Gen Z</p><p>Dimsum Gen Z adalah usaha dimsum rumahan di Mauk, Kabupaten Tangerang. Kami menghadirkan pilihan dimsum yang nikmat untuk menemani waktu santai, dengan pilihan rasa yang akrab di lidah dan dibuat untuk dinikmati bersama.</p><p>Kami percaya camilan enak dimulai dari perhatian pada bahan, kesegaran, dan rasa. Terima kasih sudah mendukung usaha lokal!</p></div>
+      </div>
+      <div class="values">
+        <article><span>01</span><h3>Bahan halal</h3><p>Mengutamakan bahan yang halal untuk pilihan camilan keluarga.</p></article>
+        <article><span>02</span><h3>Fresh setiap hari</h3><p>Disiapkan dengan perhatian pada kesegaran dan cita rasa.</p></article>
+        <article><span>03</span><h3>Saus racikan</h3><p>Lengkapi dimsum dengan saus sambal racikan khusus.</p></article>
+        <article><span>04</span><h3>Siap santap & frozen</h3><p>Pilih dimsum siap dinikmati atau frozen untuk stok di rumah.</p></article>
+      </div>
+    </section>
+
+    <section class="menu-section section-pad" id="menu">
+      <div class="section-kicker">PILIHAN LEZAT <span>02 / MENU</span></div>
+      <div class="section-heading"><div><h2>Menu <em>favorit.</em></h2><p>Temukan rasa yang paling kamu suka.</p></div><span class="menu-stamp">MADE WITH<br>GOOD MOOD ✦</span></div>
+      <div class="filters" role="group" aria-label="Filter kategori menu">
+        <button class="filter-btn active" data-filter="semua">Semua</button>
+        <button class="filter-btn" data-filter="kukus">Kukus</button>
+        <button class="filter-btn" data-filter="goreng">Goreng</button>
+        <button class="filter-btn" data-filter="paket">Paket</button>
+      </div>
+      <div class="menu-grid">
+        <article class="menu-card" data-category="kukus">
+          <div class="menu-image"><img src="assets/dimsum-original.jpg" alt="Dimsum Original"><span class="menu-number">01</span></div>
+          <div class="menu-info"><div class="menu-title"><h3>Dimsum Original</h3><b>Rp15.000</b></div><p>Rasa gurih klasik yang pas untuk menemani waktu santai.</p><a class="order-link" data-product="Dimsum Original" href="#">Pesan menu ini <span>↗</span></a></div>
+        </article>
+        <article class="menu-card" data-category="kukus">
+          <div class="menu-image"><img src="assets/dimsum-mentai.jpg" alt="Dimsum Mentai"><span class="menu-number">02</span></div>
+          <div class="menu-info"><div class="menu-title"><h3>Dimsum Mentai</h3><b>Rp25.000</b></div><p>Dimsum dengan topping saus mentai yang creamy dan menggugah selera.</p><a class="order-link" data-product="Dimsum Mentai" href="#">Pesan menu ini <span>↗</span></a></div>
+        </article>
+        <article class="menu-card" data-category="kukus">
+          <div class="menu-image"><img src="assets/dimsum-mozarella.jpg" alt="Dimsum Mozarella"><span class="menu-number">03</span></div>
+          <div class="menu-info"><div class="menu-title"><h3>Dimsum Mozarella</h3><b>Rp20.000</b></div><p>Perpaduan dimsum dan keju mozarella untuk sensasi gurih keju.</p><a class="order-link" data-product="Dimsum Mozarella" href="#">Pesan menu ini <span>↗</span></a></div>
+        </article>
+      </div>
+      <p class="menu-footnote">Harga mengikuti informasi pada menu yang tersedia. Kategori menu dapat dikonfirmasi kembali saat pemesanan.</p>
+    </section>
+
+    <section class="feature-banner">
+      <div><p class="eyebrow">ENAKNYA BISA KAPAN SAJA</p><h2>Siap santap atau<br><em>simpan untuk nanti.</em></h2><p>Nikmati dimsum saat hangat atau tanyakan pilihan frozen food untuk stok camilan di rumah.</p><a class="btn btn-light" href="https://wa.me/6288211770143?text=Halo%2C%20saya%20ingin%20bertanya%20tentang%20dimsum%20frozen." target="_blank" rel="noopener">Belanja Sekarang ↗</a></div>
+      <div class="banner-art"><img src="assets/dimsum-mentai.jpg" alt="Dimsum mentai pilihan Dimsum Gen Z"></div>
+    </section>
+
+    <section class="gallery-section section-pad" id="gallery">
+      <div class="section-kicker">DARI DAPUR KAMI <span>03 / GALLERY</span></div>
+      <div class="section-heading"><div><h2>Good food,<br><em>good moments.</em></h2><p>Intip pilihan dimsum dari Dimsum Gen Z.</p></div></div>
+      <div class="gallery-grid">
+        <figure class="gallery-large"><img src="assets/dimsum-original.jpg" alt="Dimsum original"><figcaption>Original · Gurih klasik</figcaption></figure>
+        <figure><img src="assets/dimsum-mentai.jpg" alt="Dimsum mentai"><figcaption>Mentai · Creamy favorite</figcaption></figure>
+        <figure><img src="assets/dimsum-mozarella.jpg" alt="Dimsum mozarella"><figcaption>Mozarella · Cheese delight</figcaption></figure>
+      </div>
+      <p class="gallery-note">Ikuti Instagram kami untuk melihat kabar, menu, dan aktivitas terbaru.</p>
+      <a class="text-link" href="https://www.instagram.com/dimsumgenzzzz/" target="_blank" rel="noopener">@dimsumgenzzzz ↗</a>
+    </section>
+
+    <section class="contact-section section-pad" id="contact">
+      <div class="section-kicker">KAMI TUNGGU PESANANMU <span>04 / CONTACT</span></div>
+      <div class="contact-grid">
+        <div><h2>Yuk, pesan<br><em>dimsum hari ini.</em></h2><p class="contact-intro">Hubungi kami untuk tanya menu, ketersediaan, atau pemesanan.</p>
+          <a class="btn btn-gold contact-cta" href="https://wa.me/6288211770143?text=Halo%20Dimsum%20Gen%20Z%2C%20saya%20ingin%20memesan." target="_blank" rel="noopener">Order via WhatsApp <span>↗</span></a>
+          <a class="shopee-link" href="https://id.shp.ee/LmirL8Rx" target="_blank" rel="noopener">Atau belanja melalui Shopee ↗</a>
+        </div>
+        <div class="contact-details">
+          <div><span class="detail-icon">⌖</span><p><small>LOKASI</small><b>Mauk, Kabupaten Tangerang, Banten</b><a href="https://www.google.com/maps/search/?api=1&query=Mauk%2C+Kabupaten+Tangerang%2C+Banten" target="_blank" rel="noopener">Lihat petunjuk arah ↗</a></p></div>
+          <div><span class="detail-icon">◷</span><p><small>JAM BUKA</small><b>Setiap hari · 10.00–22.00 WIB</b></p></div>
+          <div><span class="detail-icon">☏</span><p><small>WHATSAPP</small><b>0882 1177 0143</b><a href="https://wa.me/6288211770143" target="_blank" rel="noopener">Chat sekarang ↗</a></p></div>
+          <div><span class="detail-icon">◎</span><p><small>INSTAGRAM</small><b>@dimsumgenzzzz</b><a href="https://www.instagram.com/dimsumgenzzzz/" target="_blank" rel="noopener">Kunjungi Instagram ↗</a></p></div>
+        </div>
+      </div>
+      <div class="map-frame"><iframe title="Peta Mauk Kabupaten Tangerang" src="https://www.google.com/maps?q=Mauk%2C%20Kabupaten%20Tangerang%2C%20Banten&output=embed" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>
+      <p class="address-note">Area layanan: Mauk, Kabupaten Tangerang. Silakan konfirmasi alamat lengkap dan jangkauan pengantaran melalui WhatsApp.</p>
+    </section>
+  </main>
+
+  <footer class="footer"><a class="brand footer-brand" href="#home"><span class="brand-mark">DG</span><span>DIMSUM <b>GEN Z</b></span></a><p>Hangatnya dimsum, hangatkan harimu.</p><span>© <span id="year"></span> Dimsum Gen Z · Mauk, Tangerang</span></footer>
+  <a class="floating-wa" href="https://wa.me/6288211770143?text=Halo%20Dimsum%20Gen%20Z%2C%20saya%20ingin%20memesan." target="_blank" rel="noopener" aria-label="Pesan melalui WhatsApp">☏</a>
+  <script src="script.js"></script>
+</body>
+</html>
